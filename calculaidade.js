@@ -6,3 +6,4 @@ const pessoa = {
     idade:30
 }
 console.log(calculaIdade.call(pessoa,40))
+console.log(calculaIdade.apply(pessoa,[40]))
