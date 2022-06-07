@@ -72,4 +72,4 @@ function aprovados(alunos, mediaAlvo,materia='javascript') {
     alunos.push(aluno1)
     alunos.push(aluno2)
     alunos.push(aluno3)
-    console.log(aprovados(alunos, 6,'java'))
+    console.log(aprovados(alunos, 6,'javascript'))
