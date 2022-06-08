@@ -3,7 +3,6 @@
 function aprovados(alunos, mediaAlvo,materia='javascript') {
     //array para receber os aprovados do processamento
     const aprovados = []
-
     //percorre o array recebido
     for (let aluno of alunos) {
         //obtem o nome por destructuring
